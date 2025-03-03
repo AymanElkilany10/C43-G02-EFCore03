@@ -7,7 +7,6 @@ namespace EF_3
         {
             using (var context = new ITIDbContext())
             {
-                Console.WriteLine("📌 Applying CRUD operations...\n");
 
                 //  insert data
                 var student = new Student { FName = "Ayman", LName = "Elkilany", Address = "Cairo", Age = 21, Dep_Id = 1 };
